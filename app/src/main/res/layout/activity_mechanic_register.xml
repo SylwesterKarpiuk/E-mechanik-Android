@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp" >
+
+        <Button
+            android:id="@+id/btn_Mech_Reg"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="Zarejestruj"
+            android:onClick="rejestracjaMechanikaWlasciwa"/>
+
+        <EditText
+            android:id="@+id/tv_haslo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_login"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="hasło"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_haslo"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/tv_haslo"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="login"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_haslo"
+            android:layout_alignStart="@+id/tv_haslo"
+            android:layout_below="@+id/tv_haslo"
+            android:ems="10"
+            android:hint="adres email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tv_czas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_email"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="nazwa firmy"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tv_adres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_czas"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="adres"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tv_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_adres"
+            android:layout_alignStart="@+id/tv_adres"
+            android:layout_below="@+id/tv_adres"
+            android:ems="10"
+            android:hint="numer telefonu"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

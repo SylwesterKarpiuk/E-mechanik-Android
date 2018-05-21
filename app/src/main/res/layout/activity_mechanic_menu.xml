@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="214dp">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_alignParentTop="true"
+            android:onClick="mechanicEditClick"
+            android:layout_alignStart="@+id/button9"
+            android:layout_marginTop="79dp"
+            android:text="Edytuj profil" />" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button10"
+            android:layout_alignStart="@+id/button10"
+            android:layout_below="@+id/button6"
+            android:layout_marginTop="20dp"
+            android:text="Edytuj / dodaj usługę" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Skrzynka odbirocza" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

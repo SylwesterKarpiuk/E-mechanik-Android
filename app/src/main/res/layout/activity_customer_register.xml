@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="123dp"
+            android:onClick="rejestracjKlientaWlasciwa"
+            android:text="Zarejestruj" />
+
+        <EditText
+            android:id="@+id/customerLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/customerPassword"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/customerPassword"
+            android:layout_marginTop="51dp"
+            android:ems="10"
+            android:hint="login"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/customerPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customerLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:ems="10"
+            android:hint="hasło"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/customerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/customerPassword"
+            android:layout_alignStart="@+id/customerPassword"
+            android:layout_below="@+id/customerPassword"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="adres email"
+            android:inputType="textPersonName" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

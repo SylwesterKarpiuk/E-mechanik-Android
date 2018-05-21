@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button2"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:layout_marginBottom="37dp"
+            android:text="Edytuj profil"
+            android:onClick="customerEditClick"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button7"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_alignStart="@+id/button7"
+            android:layout_marginBottom="36dp"
+            android:text="Znajdź mechanika"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="135dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignStart="@+id/button8"
+            android:layout_centerVertical="true"
+            android:text="Skrzynka odbiorcza"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="183dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp"
+            android:text="Historia napraw" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
